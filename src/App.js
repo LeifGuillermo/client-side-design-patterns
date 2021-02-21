@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Header from './header/Header'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App App-body">
       <Header headerText="This is a header"></Header>
       <a
         className="App-link"
